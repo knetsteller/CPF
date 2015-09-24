@@ -57,12 +57,4 @@ public class CPF {
         return cpfAjustado;
     }
     
-    public static void main(String[] args) {
-        
-        int[] cpf_a = {0, 1, 8, 9, 7, 8, 7, 5, 1, 1, 8};
-        int[] cpf_b = {5, 1, 7, 1, 8, 5, 2, 6, 0, 0, 8};
-        int[] cpf_c = {3, 4, 6, 0, 6, 2, 5, 9, 6, 1, 2};
-        int[] cpf_d = {0, 0, 6, 0, 6, 9, 9, 0, 0, 0, 0};
-        System.out.println(verificaCPF(cpf_d));
-    }
 }
